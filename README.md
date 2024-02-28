@@ -8,3 +8,6 @@ git commit -m "first commit"
 git add .
 
 git pull
+
+bash your_file_name.sh
+
