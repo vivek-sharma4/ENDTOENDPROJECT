@@ -5,3 +5,6 @@ scikit-learn
 -e .
 
 ipykernel
+
+seaborn
+matplotlib
