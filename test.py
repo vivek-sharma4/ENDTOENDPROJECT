@@ -3,8 +3,9 @@ import os
 path="notebooks/research.ipynb"
 
 dir,file=os.path.split(path)
-os.makedirs(dir)
 
-with open(file,"w") as f:
+os.makedirs(dir,exist_ok=True)
+
+with open(path,"w") as f:
     pass
         
